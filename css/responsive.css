@@ -1,0 +1,219 @@
+@media (max-width: 768px) {
+  .testiParagraph::after {
+    top: -15px;
+    left: -8px;
+    font-size: 30px;
+  }
+
+  .testiParagraph::before {
+    bottom: -25px;
+    right: 80px;
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .testiParagraph::after {
+    top: -14px;
+    left: -16px;
+    font-size: 32px;
+  }
+
+  .testiParagraph::before {
+    bottom: -29px;
+    right: 160px;
+    font-size: 32px;
+  }
+
+  .footer .custome {
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 600px) {
+
+  .main-banner .textContent .uxText {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .main-banner .textContent .desText {
+    font-size: 10px;
+  }
+
+  .main-banner .textContent .uxText {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 992px) {
+
+  .main-banner .textContent .desText {
+    font-size: 30px;
+  }
+
+  #design {
+    margin: 0;
+  }
+
+  .main-banner .textContent .uxText {
+    font-size: 40px;
+  }
+
+  .textContent {
+    text-align: center;
+  }
+
+  .main-banner p {
+    text-align: justify;
+  }
+
+  .customeItem {
+    padding-bottom: 20px;
+  }
+
+  .main-banner .mainContent .mainBtn {
+    display: block;
+    margin: 10px auto;
+    width: 50%;
+    text-align: center;
+  }
+
+  .aboutImage {
+    display: none;
+  }
+
+  .about .aboutContent .abtText::after {
+    content: '';
+    left: 105px;
+    top: 76px;
+    width: 37%;
+  }
+
+  .about .aboutContent p {
+    text-align: justify;
+    font-size: 17px;
+  }
+
+  .services .heading::after {
+    bottom: 20px;
+    left: 112px;
+    width: 35%;
+  }
+
+  br {
+    display: none;
+  }
+
+  .serviBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .project .heading::after {
+    bottom: 8px;
+    left: 83px;
+    width: 55%;
+    height: 4px;
+  }
+
+  .project-heading p {
+    padding-top: 10px;
+  }
+
+  .content {
+    flex-direction: column;
+
+  }
+
+  .designSec {
+    padding-bottom: 10px;
+  }
+
+  .designSec .heading {
+    font-size: 45px;
+  }
+
+  .designSec .heading span {
+    display: none;
+  }
+
+  .designSec .heading::after {
+    bottom: 20px;
+    left: 101px;
+    width: 43%;
+  }
+
+  .form-container .inputfield {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 20px;
+  }
+
+  .form {
+    padding-bottom: 15px;
+  }
+
+  .footerContent .footer-para {
+    display: none;
+  }
+
+  .footer .project-heading {
+    padding-top: 15px;
+    padding-bottom: 20px;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px -10px 10px -10px;
+  }
+
+  .testimonials .heading {
+    font-size: 40px;
+  }
+
+  .testimonials .heading::after {
+    content: '';
+    bottom: 18px;
+    left: 81px;
+    width: 60%;
+    height: 4px;
+    background-color: #FD6F00;
+    position: absolute;
+  }
+
+  .item-icon {
+    width: 60%;
+  }
+}
+
+
+@media (min-width: 600px) {
+  .content {
+    flex-direction: row;
+  }
+
+  .item-icon img {
+    width: 420px;
+
+  }
+
+  .item-text h2 {
+    font-size: 20px;
+  }
+
+  .item-text p {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .owl-carousel .item {
+    width: 50%;
+  }
+}
